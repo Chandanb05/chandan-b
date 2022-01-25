@@ -1,0 +1,203 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{
+    background-color: rgb(238, 238, 238);
+}
+}
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+    font-size: 1.5em;
+    background-color: rgb(129, 169, 243);
+    height: 70px;
+}
+.logo{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    letter-spacing: 5px;
+    font-size: 50px;
+    color: black;
+    padding: 30px;
+    font-family: forte;
+}
+.menu a{
+    position: relative;
+    text-decoration: none;
+    display: block;
+    padding: 25px 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-align:right;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    float: right;
+}
+.menu a:hover{
+    background: whitesmoke;
+}
+.menu li{
+    display: inline-block;
+}
+.t1{
+    position: absolute;
+    top: 115%;
+    left: 33%;
+}
+.t1 h1{
+    font-size: 2em;
+}
+span{
+    font-size: 2em;
+    color: rgb(61, 124, 243);
+}
+p{
+    position:absolute ;
+    top: 55%;
+    left: 10%;
+    color: rgb(8, 8, 8);
+    font-size: 2.1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p span{
+    font-size: 1.5em;
+    color: black;
+}
+img{
+    position: absolute;
+    float: right;
+    top: 25%;
+    right: 4%;
+    width: 400px;
+    border-radius: 200px;
+}
+.about p{
+    position: absolute;
+    top: 140%;
+    left: 15%;
+    color: rgb(8, 8, 8);
+}
+.about1 p{
+    position: absolute;
+    top: 150%;
+    left: 15%;
+    color: rgb(8, 8, 8);
+}
+.about2 p{
+    position: absolute;
+    top: 160%;
+    left: 15%;
+    color: rgb(8, 8, 8);
+}
+.about3 p{
+    position: absolute;
+    top: 170%;
+    left: 15%;
+    color: rgb(8, 8, 8);
+}
+.socialmedia {
+padding: 0;
+margin: 0;
+list-style: none;
+display:inline-block;
+}
+.socialmedia ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200%;
+    position: absolute;
+    left: 40%;
+    margin: 0 15px;
+    list-style: none;
+    position: inline-box;
+}
+.fa-instagram{
+    padding: 10px 30px;
+    margin: 0;
+    color:rgb(255, 53, 121);
+    font-size: 75px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+.fa-linkedin{
+    padding: 10px 30px;
+    margin: 0;
+    color: #0e76a8;
+    font-size: 75px;
+    display: inline-block;
+}
+.menu1{
+    position: absolute;
+    background-color: rgb(129, 169, 243);
+    border-radius: 25px;
+    top: 95%;
+    left: 10%;
+    display: block;   
+    font-size: 1em; 
+}
+.menu1 a{
+        position: relative;
+        text-decoration: none;
+        display: block;
+        padding: 25px 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+}
+.menu1 ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu1 a:hover{
+    background: rgb(145, 197, 255);
+}
+.menu2{
+    position: absolute;
+    background-color: rgb(129, 169, 243);
+    border-radius: 25px;
+    top: 190%;
+    left: 10%;
+    display: block;  
+    font-size: 1em;  
+}
+.menu2 a{
+        position: relative;
+        text-decoration: none;
+        display: block;
+        padding: 25px 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: black;
+}
+.menu2 ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu2 a:hover{
+    background: rgb(145, 197, 255);
+}
+.thank p{
+    position: absolute;
+    top: 225%;
+    left: 40%;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
